@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "keccak256": "^1.0.6",
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-debounce-input": "^3.3.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-papaparse": "^4.0.2"
   },
   "devDependencies": {
     "eslint": "8.20.0",
