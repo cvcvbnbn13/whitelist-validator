@@ -156,8 +156,6 @@ const ToolProvider = ({ children }) => {
     state.tree,
   ]);
 
-  console.log(state.wlRoot);
-
   const handleInput = e => {
     dispatch({
       type: HANDLE_INPUT_TOOL,
