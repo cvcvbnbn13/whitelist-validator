@@ -138,7 +138,6 @@ const ToolProvider = ({ children }) => {
     if (
       state.whitelist === null ||
       state.csvTokenIDs === null ||
-      state.inputValue.Address === '' ||
       state.tree === null
     )
       return;

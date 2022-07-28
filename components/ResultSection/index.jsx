@@ -10,12 +10,18 @@ const ResultSection = () => {
         {wlProof.length > 0 && (
           <div>
             <h4>WlProof</h4>
-            {wlProof.map(el => (
-              <p key={el}>{el}</p>
-            ))}
+            {wlProof.map(
+              el => (
+                <span key={el}>
+                  {`"${el}",`}
+                  <br />
+                </span>
+              )
+              // <p key={el}>{el}</p>
+            )}
           </div>
         )}
-        {wlProof.length > 0 && wlRoot !== '' && (
+        {wlRoot !== '' && (
           <div>
             <h4>WlRoot</h4>
             {wlRoot}
